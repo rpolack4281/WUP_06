@@ -103,10 +103,15 @@ fisher.test(table2)
 #fisherXY(mydata$race,mydata$cappun)
 ```
 
+The p-value is very low so we have to run the fisher test.  
+
 ```{r}
 fisherXY(mydata$cappun,mydata$race)
 ```
  
+Based on the p-values when comparing each group with another:
+the p-value was smaller 0.05 in every case which shows that there is a significant difference in each case between the two groups that are being compared.
+
 
 # Discussion and Conclusion
 
