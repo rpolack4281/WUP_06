@@ -175,4 +175,10 @@ The p-value for comparing white and black is lower than 0.05 and the same thing 
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+In this data set, we have ten columns (variables) so that leads to having less rows while applying the omit na code. In the graphical analysis, we didn't see a difference in the percentage graph between the white population and other population, whereas in the master branch (where we had more rows from having less variables) there was a difference the white and other population in the percentage graph.
 
+Moving to numerical analysis, the white population was favoring almost as much as the other population (the other population favoring a little bit more), but in the master branch white was favoring more than others.
+
+When it came to running the fisher test, when comparing white with others in the number 2 branch, there wasn't a difference (p-value=1) signifying that race does affect the results, while in the master branch, there was a difference between white and other (p-value=0.05) which proves that race does affect the results.
+
+In conclusion, having less of a data set shows less of a difference.
