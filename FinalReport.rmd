@@ -116,3 +116,9 @@ the p-value was smaller 0.05 in every case which shows that there is a significa
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+In this data set, we have two columns (variables) so that leads to having more rows while applying the omit na code. In the graphical analysis, we saw quite a difference in the percentage graph between the white population and other population, whereas in the number 2 branch (where we had less rows from having more variables) there was no difference the white and other population in the percentage graph. 
+Moving to numerical analysis, the white population was favoring more than the other population by quite a lot, but in the number 2 branch there wasn't that much difference in favoring between white and other (other was favoring more by a little bit.)
+When it came to running the fisher test, when comparing white with others in the master branch, there was a difference signifying that race does affect the results, while in the number 2 branch, there was no difference between white and other.
+In conclusion, having a bigger data set shows more difference. 
+
