@@ -61,8 +61,7 @@ basicCC <- ggplot(dd2,aes(x=race,y=prcnt*100,fill=cappun))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
-Based on the graphs, it looks like the white population is the one that favors the proposition the most (count), while the black population it looks like they favor and oppose it almost equally, and for the other population they favor more than oppose (but when it comes to count it is less than white but the percentage is almost equal). 
-
+Based on the graphs, it looks like the white population is the one that favors the proposition the most (count), while the black population it looks like they favor and oppose it almost equally, and for the other population they favor more than oppose (but when it comes to count it is less than white but the percentage is almost equal).
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
@@ -70,6 +69,15 @@ Based on the graphs, it looks like the white population is the one that favors t
 
 ## Now with less data
 
+```{r}
+table2 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table2)
+colPerc(table2)
+```
+
+Based on the numerical data (percentage based on race) it seems that the white population favors more than opposing, the black population opposes more than favoring, and the other population favor more than opposing. The white population is the one that favors the most and the black population is the one that opposes the most. 
+For the second set of numerical data (percentages based on favoring or opposing):
+the numbers show that the white population has the highest in favoring and opposing (the size of the white population is the largest and this is affecting the result).
 
 
 ## Inferential Results
